@@ -19,13 +19,13 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue[600],
+        backgroundColor: Colors.blue,
         leading: Icon(
           Icons.menu_rounded,
           color: Colors.white,
         ),
         title: Text(
-          "Hello Appbar",
+          "Hello AppBar",
           style: TextStyle(color: Colors.white),
         ),
         actions: <Widget>[
